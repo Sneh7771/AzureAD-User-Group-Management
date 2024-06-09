@@ -1,14 +1,21 @@
-# Azure AD User and Group Management
+# Create an Azure AD User & Invite the User
 
-This repository contains documentation and scripts for managing Azure Active Directory users and groups.
+## Create a User
 
-## Contents
+1. Go to the [Azure portal](https://portal.azure.com/).
+2. Navigate to Azure Active Directory > Users > All users > New user.
+3. Fill in the required details:
+   - User name
+   - Name
+   - Password (auto-generate or create)
+   - Usage location
+4. Click "Create".
 
-1. [Create User & Invite](1-Create-User-Invite.md)
-2. [Create Groups](2-Create-Groups.md)
-3. [Group Management](3-Group-Management.md)
-4. [Group Properties](4-Group-Properties.md)
-5. [Roles & Licenses](5-Roles-Licenses.md)
-6. [Bulk Operations](6-Bulk-Operations.md)
-7. [User Management](7-User-Management.md)
-8. [Monitoring](8-Monitoring.md)
+## Invite an External User
+
+1. Go to Azure Active Directory > Users > All users > New guest user.
+2. Select "Invite user".
+3. Enter the guest user's email address.
+4. Fill in optional details such as the display name.
+5. Customize the invitation message if desired.
+6. Click "Invite".
